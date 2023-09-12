@@ -46,6 +46,7 @@ cortavientos = Vestimenta("Cortavientos", "72,990", "Vestimenta", "beige")
 Electronico = [microondas,tostador]
 Alimenticio = [pizza,lasagna]
 Vestimenta = [short,cortavientos]
+
 for i in(Electronico):
     print(i.mostrar_detalle())
 
